@@ -70,7 +70,7 @@
             if (min === "ñ") return "ñ";
 
             const sinAcento = min.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-
+            return sinAcento
         }
 
         function mostrarFrasePara(letraCruda) {
